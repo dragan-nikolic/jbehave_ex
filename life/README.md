@@ -12,14 +12,16 @@ Illustrated by the Conway's Game of Life.
 - Use IntelliJ community
 - Add JBehave Support plugin
 - Create an empty maven project using IntelliJ
+- add dependencies in pom file
 
 ## First story
 
-- add package stories.life.cells under src/main/resources
+- add story file cell_lifecycle.story under the package src/test/resources/stories/life/cells
+- add corresponding java story file CellLifecycle.java under src/test/java/life/stories
 
-## Run scenario
+## Run tests
 
-- create a bootstrap class
+- `$ mvn clean verify`
 
 ## References
 
