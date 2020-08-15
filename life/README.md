@@ -21,7 +21,6 @@ Illustrated by the Conway's Game of Life.
 
 - create a bootstrap class
 
-
 ## References
 
 - [Serenity BDD](https://serenity-bdd.github.io/theserenitybook/latest/index.html)
