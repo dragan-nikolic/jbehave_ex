@@ -1,5 +1,6 @@
 package life.stepdefinitions;
 
+import org.jbehave.core.annotations.Composite;
 import org.jbehave.core.annotations.Given;
 import org.jbehave.core.annotations.Then;
 import org.jbehave.core.annotations.When;
@@ -7,6 +8,14 @@ import org.junit.Assert;
 
 public class CellSteps {
     private Cell cell;
+
+    @Given("a dead cell with 3 live neighbours")
+    @Composite(steps = {
+            "Given a dead cell",
+            "Given the cell has 3 live neighbours"
+    })
+    public void givenDeadCellWith3LiveNeighbours() {
+    }
 
     @Given("a dead cell")
     public void givenDeadCell() {

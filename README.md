@@ -1,2 +1,5 @@
-# jbehave_ex
-JBehave Examples
+# JBehave Examples
+
+## life
+
+This example works. See its README.
