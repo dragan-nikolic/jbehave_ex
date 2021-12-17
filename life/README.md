@@ -2,8 +2,8 @@
 
 [YouTube tutorial](https://www.youtube.com/watch?v=pNOnLl8rZAw) demonstrating:
 
-- Serenity, an automated acceptance test reporting librry
-- JBehave, a BDD framework for Java
+- [Serenity](https://serenity-bdd.info/), an automated acceptance test reporting library
+- [JBehave](https://jbehave.org/), a BDD framework for Java
 
 Illustrated by the Conway's Game of Life.
 
@@ -21,7 +21,11 @@ Illustrated by the Conway's Game of Life.
 
 ## Run tests
 
+### From the terminal
 - `$ mvn clean verify`
+
+### From IntelliJ
+- Right-click on java story file (e.g. CellLifecycle), and select 'Run <StoryFile>'
 
 ## References
 
